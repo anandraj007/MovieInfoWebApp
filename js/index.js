@@ -68,6 +68,6 @@ function getMovie(){
       $('#movie').html(output);
     })
     .catch((err) => {
-      console.log(err);
+       console.log(err);
     });
 }
